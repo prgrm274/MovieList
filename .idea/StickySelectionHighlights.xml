@@ -33,37 +33,67 @@
             </PaintGroupHighlightMap>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/movielist/movielist/BuildConfig.java">
-          <value>
-            <PaintGroupHighlightMap>
-              <option name="paintGroups">
-                <map>
-                  <entry key="0">
-                    <value>
-                      <EditorHighlightsForPaintGroup />
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </PaintGroupHighlightMap>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/app/src/androidTest/java/com/movielist/movielist/ExampleInstrumentedTest.java">
-          <value>
-            <PaintGroupHighlightMap>
-              <option name="paintGroups">
-                <map>
-                  <entry key="0">
-                    <value>
-                      <EditorHighlightsForPaintGroup />
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </PaintGroupHighlightMap>
-          </value>
-        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <value>
+            <PaintGroupHighlightMap>
+              <option name="paintGroups">
+                <map>
+                  <entry key="0">
+                    <value>
+                      <EditorHighlightsForPaintGroup />
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </PaintGroupHighlightMap>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/movielist/movielist/OkHttpDownloaderDiskCacheFirst.java">
+          <value>
+            <PaintGroupHighlightMap>
+              <option name="paintGroups">
+                <map>
+                  <entry key="0">
+                    <value>
+                      <EditorHighlightsForPaintGroup />
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </PaintGroupHighlightMap>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/movielist/movielist/PicassoCache.java">
+          <value>
+            <PaintGroupHighlightMap>
+              <option name="paintGroups">
+                <map>
+                  <entry key="0">
+                    <value>
+                      <EditorHighlightsForPaintGroup />
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </PaintGroupHighlightMap>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/movielist/movielist/Splash.java">
+          <value>
+            <PaintGroupHighlightMap>
+              <option name="paintGroups">
+                <map>
+                  <entry key="0">
+                    <value>
+                      <EditorHighlightsForPaintGroup />
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </PaintGroupHighlightMap>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/movielist/movielist/Tutorial.java">
           <value>
             <PaintGroupHighlightMap>
               <option name="paintGroups">
@@ -123,37 +153,7 @@
             </PaintGroupHighlightMap>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/app/src/main/java/com/movielist/movielist/core/base/BaseActivity.java">
-          <value>
-            <PaintGroupHighlightMap>
-              <option name="paintGroups">
-                <map>
-                  <entry key="0">
-                    <value>
-                      <EditorHighlightsForPaintGroup />
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </PaintGroupHighlightMap>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/app/src/main/java/com/movielist/movielist/core/base/BaseView.java">
-          <value>
-            <PaintGroupHighlightMap>
-              <option name="paintGroups">
-                <map>
-                  <entry key="0">
-                    <value>
-                      <EditorHighlightsForPaintGroup />
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </PaintGroupHighlightMap>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/app/src/main/java/com/movielist/movielist/db____/Db.java">
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/movielist/movielist/core/utils/ContentState.java">
           <value>
             <PaintGroupHighlightMap>
               <option name="paintGroups">
@@ -169,6 +169,21 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/com/movielist/movielist/feature/common/components/CustomSearch.java">
+          <value>
+            <PaintGroupHighlightMap>
+              <option name="paintGroups">
+                <map>
+                  <entry key="0">
+                    <value>
+                      <EditorHighlightsForPaintGroup />
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </PaintGroupHighlightMap>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/movielist/movielist/feature/common/components/YearDefaultSearch.java">
           <value>
             <PaintGroupHighlightMap>
               <option name="paintGroups">
@@ -228,7 +243,82 @@
             </PaintGroupHighlightMap>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/app/src/main/java/com/movielist/movielist/feature/search/viewholder/EmptyStateViewHolder.java">
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/movielist/movielist/feature/search/SearchAdapter.java">
+          <value>
+            <PaintGroupHighlightMap>
+              <option name="paintGroups">
+                <map>
+                  <entry key="0">
+                    <value>
+                      <EditorHighlightsForPaintGroup />
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </PaintGroupHighlightMap>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/movielist/movielist/feature/search/SearchContract.java">
+          <value>
+            <PaintGroupHighlightMap>
+              <option name="paintGroups">
+                <map>
+                  <entry key="0">
+                    <value>
+                      <EditorHighlightsForPaintGroup />
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </PaintGroupHighlightMap>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/movielist/movielist/feature/search/SearchPresenter.java">
+          <value>
+            <PaintGroupHighlightMap>
+              <option name="paintGroups">
+                <map>
+                  <entry key="0">
+                    <value>
+                      <EditorHighlightsForPaintGroup />
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </PaintGroupHighlightMap>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/movielist/movielist/feature/search/YearDefaultContract.java">
+          <value>
+            <PaintGroupHighlightMap>
+              <option name="paintGroups">
+                <map>
+                  <entry key="0">
+                    <value>
+                      <EditorHighlightsForPaintGroup />
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </PaintGroupHighlightMap>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/movielist/movielist/feature/search/YearDefaultPresenter.java">
+          <value>
+            <PaintGroupHighlightMap>
+              <option name="paintGroups">
+                <map>
+                  <entry key="0">
+                    <value>
+                      <EditorHighlightsForPaintGroup />
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </PaintGroupHighlightMap>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/movielist/movielist/feature/search/viewholder/CardMovieViewHolder.java">
           <value>
             <PaintGroupHighlightMap>
               <option name="paintGroups">
@@ -258,6 +348,126 @@
             </PaintGroupHighlightMap>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/drawable-v21/ripple_effect.xml">
+          <value>
+            <PaintGroupHighlightMap>
+              <option name="paintGroups">
+                <map>
+                  <entry key="0">
+                    <value>
+                      <EditorHighlightsForPaintGroup />
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </PaintGroupHighlightMap>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/drawable/elevation.xml">
+          <value>
+            <PaintGroupHighlightMap>
+              <option name="paintGroups">
+                <map>
+                  <entry key="0">
+                    <value>
+                      <EditorHighlightsForPaintGroup />
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </PaintGroupHighlightMap>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/drawable/gradient.xml">
+          <value>
+            <PaintGroupHighlightMap>
+              <option name="paintGroups">
+                <map>
+                  <entry key="0">
+                    <value>
+                      <EditorHighlightsForPaintGroup />
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </PaintGroupHighlightMap>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout-land/activity_details.xml">
+          <value>
+            <PaintGroupHighlightMap>
+              <option name="paintGroups">
+                <map>
+                  <entry key="0">
+                    <value>
+                      <EditorHighlightsForPaintGroup />
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </PaintGroupHighlightMap>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout-land/activity_search.xml">
+          <value>
+            <PaintGroupHighlightMap>
+              <option name="paintGroups">
+                <map>
+                  <entry key="0">
+                    <value>
+                      <EditorHighlightsForPaintGroup />
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </PaintGroupHighlightMap>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout-land/view_custom_search.xml">
+          <value>
+            <PaintGroupHighlightMap>
+              <option name="paintGroups">
+                <map>
+                  <entry key="0">
+                    <value>
+                      <EditorHighlightsForPaintGroup />
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </PaintGroupHighlightMap>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout-v21/view_custom_search.xml">
+          <value>
+            <PaintGroupHighlightMap>
+              <option name="paintGroups">
+                <map>
+                  <entry key="0">
+                    <value>
+                      <EditorHighlightsForPaintGroup />
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </PaintGroupHighlightMap>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_details.xml">
+          <value>
+            <PaintGroupHighlightMap>
+              <option name="paintGroups">
+                <map>
+                  <entry key="0">
+                    <value>
+                      <EditorHighlightsForPaintGroup />
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </PaintGroupHighlightMap>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_search.xml">
           <value>
             <PaintGroupHighlightMap>
@@ -273,7 +483,7 @@
             </PaintGroupHighlightMap>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/build.gradle">
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/splash.xml">
           <value>
             <PaintGroupHighlightMap>
               <option name="paintGroups">
@@ -288,7 +498,7 @@
             </PaintGroupHighlightMap>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/gradle.properties">
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/view_custom_search.xml">
           <value>
             <PaintGroupHighlightMap>
               <option name="paintGroups">
@@ -303,7 +513,7 @@
             </PaintGroupHighlightMap>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
+        <entry key="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml">
           <value>
             <PaintGroupHighlightMap>
               <option name="paintGroups">
