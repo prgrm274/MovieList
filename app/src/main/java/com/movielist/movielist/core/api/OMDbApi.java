@@ -16,7 +16,8 @@ public interface OMDbApi {
     @GET("/")
     Call<SearchResponse> searchByTitle(@Query("s") String title);   // to feature.search.SearchPresenter
 
-    @GET("/y=2015")   //Min 30-12-18 213319
+//    @GET("/")   //Min 30-12-18 213319
+    @GET("/y=2015")   //Sen 31-12-18 135443
 //    Call<SearchResponse> searchByNewestYear(@Query("y") String year);   // if without its own GET, the error will be: java.lang.IllegalArgumentException: HTTP method annotation is required (e.g., @GET, @POST, etc.) for method OMDbApi.searchByNewestYear
 //    Call<SearchResponse> searchByNewestYear(@Query("s=the&y") String year);
     Call<SearchResponse> searchByNewestYear(@Query("s") String year);

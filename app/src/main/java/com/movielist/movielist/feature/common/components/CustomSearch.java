@@ -77,8 +77,9 @@ public class CustomSearch extends BaseLayout {
                 if (isChecked) {
                     if (listener != null) {
 //                        listener.onYearSearch("2018");  // no results
-                        listener.onYearSearch("2015");  //Min 30-12-18 194952
-//                        listener.onYearSearch("2015&s=the");    //Min 30-12-18 215349
+//                        listener.onYearSearch("2015");  //Min 30-12-18 194952
+                        //                        listener.onYearSearch("2015&s=the");    //Min 30-12-18 215349
+                        listener.onYearSearch(inputEditText.getText().toString());  //Sen 31-12-18 135741
                     }
                 }
             }
