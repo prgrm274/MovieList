@@ -22,7 +22,7 @@ public class Tutorial extends Activity {
             @Override
             public void run() {
                 try {
-                    sleep(500);
+                    sleep(2000);
                 } catch (InterruptedException e) {
 
                 } finally {

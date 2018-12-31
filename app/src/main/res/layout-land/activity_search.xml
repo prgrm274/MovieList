@@ -32,6 +32,7 @@
     <!--<com.example.omdb.feature.common.components.CustomSearch-->
     <com.movielist.movielist.feature.common.components.CustomSearch
         android:id="@+id/cs_search"
+        android:layout_alignBottom="@+id/rv_card_movies"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginStart="24dp"
