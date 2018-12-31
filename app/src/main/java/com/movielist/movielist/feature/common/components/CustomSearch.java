@@ -78,8 +78,13 @@ public class CustomSearch extends BaseLayout {
                     if (listener != null) {
 //                        listener.onYearSearch("2018");  // no results
 //                        listener.onYearSearch("2015");  //Min 30-12-18 194952
-                        //                        listener.onYearSearch("2015&s=the");    //Min 30-12-18 215349
+//                        listener.onYearSearch("2015&s=the");    //Min 30-12-18 215349
                         listener.onYearSearch(inputEditText.getText().toString());  //Sen 31-12-18 135741
+//                        listener.onYearSearch(inputEditText.getText().toString() + "y=2015");  //Sen 31-12-18 145254  //Sen 31-12-18 145855 works but all years changed to 2015
+                    }
+                } else {    //Sen 31-12-18 150248
+                    if (listener != null) {
+                        listener.onSearch(inputEditText.getText().toString());
                     }
                 }
             }

@@ -74,8 +74,7 @@ public abstract class BaseAdapter<T> extends BaseRecyclerView.Adapter<RecyclerVi
         if (context != null) {
             return LayoutInflater.from(context);
         } else {
-            throw new IllegalStateException("Cannot inflate views without an activity context! "
-                    + "Please set this adapter's activity context to allow it to inflate views.");
+            throw new IllegalStateException("Cannot inflate views without an activity context! Please set this adapter's activity context to allow it to inflate views.");
         }
     }
 

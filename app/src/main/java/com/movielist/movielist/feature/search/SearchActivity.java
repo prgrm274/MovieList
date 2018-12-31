@@ -36,7 +36,7 @@ public class SearchActivity extends BaseActivity implements
 //    private SearchContract.YearPresenter yearPresenter;
 //    private YearDefaultContract.Presenter yearPresenter;
 
-    protected SwitchCompat switchCompat;    //Sab 29-12-18 175405
+//    protected SwitchCompat switchCompat;    //Sab 29-12-18 175405 //Sen 31-12-18 154341 commented
 
     protected CustomSearch customSearch;
 //    protected YearDefaultSearch yearDefaultSearch;  //Sab 29-12-18 212628
@@ -61,7 +61,7 @@ public class SearchActivity extends BaseActivity implements
 
         setContentView(R.layout.activity_search);
 
-        switchCompat = findViewById(R.id.switch_compat);    //Sab 29-12-18 185758
+//        switchCompat = findViewById(R.id.switch_compat);    //Sab 29-12-18 185758
         customSearch = findViewById(R.id.cs_search);
 
         recyclerView = findViewById(R.id.rv_card_movies);
@@ -75,6 +75,8 @@ public class SearchActivity extends BaseActivity implements
 
         adapter = new SearchAdapter(getBaseContext(), this);
         recyclerView.initLoadingStateView(loading);
+        recyclerView.setDrawingCacheEnabled(true);  //Sen 31-12-18 154509
+        recyclerView.setDrawingCacheQuality(View.DRAWING_CACHE_QUALITY_HIGH);   //Sen 31-12-18 154512
         recyclerView.setAdapter(adapter);
         recyclerView.setLayoutManager(layoutManager);
 

@@ -7,9 +7,10 @@
     <android.support.v7.widget.AppCompatTextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_margin="@dimen/margin_padding_size_medium"
+        android:layout_margin="10dp"
         android:gravity="center_horizontal"
         android:text="@string/kosong"
+        android:textSize="20sp"
         android:textColor="@android:color/white" />
 
 </android.support.constraint.ConstraintLayout>

@@ -160,8 +160,11 @@ public class CardMovieViewHolder extends RecyclerView.ViewHolder implements Card
                     public void onError() {
                         //Try again online if cache failed
                         Log.v("Picasso","Could not fetch image in first time...");
-                        Picasso.with(context).load(imageUrl).networkPolicy(NetworkPolicy.NO_CACHE)
-                                .memoryPolicy(MemoryPolicy.NO_CACHE, MemoryPolicy.NO_STORE).error(defaultImageResId)
+                        Picasso.with(context)
+                                .load(imageUrl)
+                                .networkPolicy(NetworkPolicy.NO_CACHE)
+                                .memoryPolicy(MemoryPolicy.NO_CACHE, MemoryPolicy.NO_STORE)
+                                .error(defaultImageResId)
                                 .into(imageView, new Callback() {
 
                                     @Override

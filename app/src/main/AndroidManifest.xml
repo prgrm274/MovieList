@@ -4,6 +4,12 @@
     package="com.movielist.movielist">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <!-- Sen 31-12-18 144403:  -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <supports-screens
+        android:resizeable="true"
+        android:anyDensity="true" />
 
     <application
         android:allowBackup="true"
@@ -15,7 +21,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".Splash">
+        <activity
+            android:name=".Splash"
+            android:configChanges="orientation|screenSize|keyboardHidden" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -23,15 +31,19 @@
         </activity>
 
         <!-- Sen 31-12-18 130300:  -->
-        <activity android:name=".Tutorial" />
+        <activity
+            android:name=".Tutorial"
+            android:configChanges="orientation|screenSize|keyboardHidden" />
 
         <!-- Sen 31-12-18 130106:  -->
         <activity
             android:name=".feature.search.SearchActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
             android:windowSoftInputMode="stateHidden" />
 
         <activity
-            android:name=".feature.details.DetailsActivity" />
+            android:name=".feature.details.DetailsActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden" />
             <!--android:screenOrientation="portrait" />-->
     </application>
 

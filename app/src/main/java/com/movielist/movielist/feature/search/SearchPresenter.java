@@ -37,7 +37,7 @@ public class SearchPresenter implements SearchContract.Presenter {  //, SearchCo
 
     @Override
     public void onSearchedMovie(String title) {
-        view.cleanSearch();
+//        view.cleanSearch();   //Sen 31-12-18 154629 commented
         view.hideKeyboard();
         view.showLoading();
 
